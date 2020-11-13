@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D3D61"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="#283655"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:text="About"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="22dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="Management Team"/>
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="Filip Munteanu"/>
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:text="I will be the team leader.
+My tasks will include delegating work to my team members. I will ensure the smooth running of all operations. I will also be the head of Web Design making this my priority task."/>
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Eugene Omondi"/>
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:text="I will act as the vice – manager for the team.
+I will focus on the aspect of SSL Security. I will act as a spokesperson for the company."/>
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Olumide Akinsuyi"/>
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:text="I will be an ordinary member of the team.
+My main focus will be search engine optimization. I will also work with marketing."/>
+
+
+            <ImageView
+                android:id="@+id/idimgmap"
+                android:layout_width="323dp"
+                android:layout_height="231dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/mapicon"
+                android:tint="#009624" />
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

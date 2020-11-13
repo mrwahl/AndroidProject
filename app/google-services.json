@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "300656082622",
+    "firebase_url": "https://kofe-e7f5d.firebaseio.com",
+    "project_id": "kofe-e7f5d",
+    "storage_bucket": "kofe-e7f5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300656082622:android:07ddd2d2a9f370c5d268ef",
+        "android_client_info": {
+          "package_name": "com.example.kofeservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300656082622-jd1duu3rs3p3qo7t9ktm86hl06dci9h6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kofeservices",
+            "certificate_hash": "aaaba51789c4466a772653a5e4b6b3d588615d30"
+          }
+        },
+        {
+          "client_id": "300656082622-5a1o2fcubjfma4bm4uoeh89j76usap4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvjnMLfcsSGpxPNGpkjHUvNr1nxPSdL9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300656082622-5a1o2fcubjfma4bm4uoeh89j76usap4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

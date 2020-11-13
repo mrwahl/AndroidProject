@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_checked="true"
+        android:id="@+id/idAbout"
+        android:icon="@drawable/abouticon"
+        android:iconTint="#000"
+        android:title="About" />
+
+    <item
+        android:state_checked="true"
+        android:id="@+id/idBooking"
+        android:icon="@drawable/appointmenticon"
+        android:iconTint="#000"
+        android:title="Booking" />
+    <item
+        android:state_checked="true"
+        android:id="@+id/idprofile"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:iconTint="#000"
+        android:title="Profile" />
+
+
+
+
+
+
+</menu>

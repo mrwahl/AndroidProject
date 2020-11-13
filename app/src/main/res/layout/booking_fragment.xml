@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16274D"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="#283655"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:text="Booking"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Booking"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/idedtweburl"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tvback"
+            android:hint="Website url"
+            android:paddingLeft="15dp" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/tvback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/checkBoxMarketingStrategies"
+                android:textColor="#000"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marketing Strategies" />
+            <CheckBox
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/checkBoxGeneralConsultation"
+                android:textColor="#000"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="General Consultation" />
+            <CheckBox
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/checkBoxSearchengineoptimisation"
+                android:textColor="#000"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search Engine Optimisation" />
+            <CheckBox
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/checkBoxSecurityWebDesignanddevelopment"
+                android:textColor="#000"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Security Web Design and Development" />
+        </LinearLayout>
+
+
+        <TextView
+
+            android:id="@+id/idedtdate"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tvback"
+            android:hint="Click to Select a Date"
+            android:paddingLeft="15dp"
+            android:paddingTop="12dp"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/idedtdesc"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tvback"
+            android:hint="Website Description"
+            android:paddingLeft="15dp" />
+
+        <EditText
+            android:id="@+id/idedtmessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tvback"
+            android:hint="Message"
+            android:paddingLeft="15dp"
+
+            />
+
+        <Button
+            android:id="@+id/idbuttonbooking"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextback"
+            android:backgroundTint="#343094"
+            android:text="Make Booking"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+</LinearLayout>

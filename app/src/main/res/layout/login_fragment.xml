@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#16274D"
+    tools:context=".MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:fontFamily="sans-serif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="Kofe Services"/>
+        <TextView
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F54357"
+            android:textSize="28dp"
+            android:text="Welcome Back."/>
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="22dp"
+            android:fontFamily="sans-serif"
+            android:text="Login"/>
+        <EditText
+            android:layout_marginTop="12dp"
+            android:id="@+id/idedtemail"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="#bdbdbd"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#bdbdbd"
+
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:hint="Email"
+            android:backgroundTint="#384563"
+            android:background="@drawable/edittextback"/>
+        <EditText
+            android:layout_marginTop="12dp"
+            android:id="@+id/idedtpass"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="#bdbdbd"
+            android:paddingLeft="10dp"
+            android:textColorHint="#bdbdbd"
+            android:textColor="#fff"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+            android:hint="Password"
+            android:backgroundTint="#384563"
+            android:background="@drawable/edittextback"/>
+        <Button
+            android:id="@+id/idbuttonlogin"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTint="#343094"
+            android:textColor="#fff"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="17dp"
+            android:background="@drawable/edittextback"/>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:text="Don't have an account? "/>
+            <TextView
+                android:id="@+id/idtvregister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#F54357"
+                android:textSize="18dp"
+                android:text=" Register"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
